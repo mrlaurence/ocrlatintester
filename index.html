@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta name="description" content="OCR Latin GCSE Vocabulary Tester">
+    <meta name="author" content="Laurence D">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:400,300,600">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="/assets/favicon.ico">
+    
+    <!-- JavaScript -->
+    
+    <script src="assets/latintester.js" type="text/javascript"></script>
+    <script>
+        window.onload = function() {
+            document.getElementById("start_button").focus();
+        }
+    </script>
+    
+    <!-- Webpage Title -->
+    <title>OCR Latin GCSE Vocabulary Tester</title>
+</head>
+    
+<body>
+    <div class="container">
+        
+        <div class="row">
+            <h3 style="margin-top:1%;">OCR Latin GCSE Vocabulary Tester</h3>
+        </div>
+        
+        <div class="row">
+            <p>This vocabulary tester contains all the vocabulary in the vocabulary checklist for the Higher and Foundation Tier of the OCR Latin GCSE (J281/J081)</p>
+        </div>
+        
+        <div class="row" id="test_options_container">
+            <div class="six columns">
+                <label>Test on Assessment Objective(s)</label>
+                <select id="aosSelect" class="u-full-width">
+                    <option value="Both AOs">Both AOs</option>
+                    <option value="AO41 only">AO41 only</option>
+                    <option value="AO42 only">AO42 only</option>
+                </select>
+            </div>
+            
+            <div class="six columns">
+                <label>Test on Tier(s)</label>
+                <select id="tiersSelect" class="u-full-width">
+                    <option value="Both Tiers">Both Tiers</option>
+                    <option value="Foundation Tier only">Foundation Tier only</option>
+                    <option value="Higher Tier only">Higher Tier only</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        
+        <div class="row">
+            <button style="margin:auto;display:block;" class="button-primary" id="start_button" onclick="latinTester.startTest();" onkeypress="latinTester.keyPress(event, 'start_button');">Start Test</button>
+
+            <div id="test_container" style="display:none;">
+                <p id="test_word">Word</p>
+                <input id="translation_input" onkeypress="latinTester.keyPress(event, 'translation_input');" type="text">
+                <button class="button-primary" id="submit_button" onclick="latinTester.validateTranslationAttempt();">Submit</button>
+                <p id="correct_status" style="display:none;">Correct/Incorrect</p>
+                <button id="continue_button" style="display:none;" onclick="latinTester.continueTest();" onkeypress="latinTester.keyPress(event, 'continue_button');">Continue</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Version 2.0 | Last updated 31/05/2016 | Uses <a href="http://getskeleton.com" style="text-decoration:none;">Skeleton</a> | Made by Laurence D</p>
+    </footer>
+</body>
+</html>
