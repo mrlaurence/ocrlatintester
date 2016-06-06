@@ -272,7 +272,7 @@ var latinTester = (function() {
                 }
             }
             xhr.onreadystatechange = handleStateChange;
-            xhr.open("GET", "/assets/vocabulary_data.txt", true);
+            xhr.open("GET", "/ocrlatintester/assets/vocabulary_data.txt", true);
             xhr.send();
         },
         
