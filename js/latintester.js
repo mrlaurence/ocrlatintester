@@ -271,7 +271,7 @@ var latinTester = (function() {
                 }
             }
             xhr.onreadystatechange = handleStateChange;
-            xhr.open("GET", "/txt/vocabulary-data.txt", true);
+            xhr.open("GET", "/ocrlatintester/txt/vocabulary-data.txt", true);
             xhr.send();
         },
 
