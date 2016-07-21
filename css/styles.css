@@ -1,0 +1,43 @@
+body {
+  margin-bottom: 22px;
+}
+
+.row {
+  text-align: center;
+}
+
+.title {
+  margin-top: 2px;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  margin-bottom: 38px;
+}
+
+.about-section {
+  margin-bottom: 40px;
+}
+
+.about-section-final {
+  margin-bottom: 0px;
+}
+
+#test-options-container {
+  margin-bottom: 38px;
+}
+
+#test-container {
+  width: 85%;
+  margin: auto;
+}
+
+#test-container, #correct-status, #continue-button {
+  display: none;
+}
+
+#translation-input {
+  display:inline;
+  width:200px;
+  margin-bottom: 15px;
+}
