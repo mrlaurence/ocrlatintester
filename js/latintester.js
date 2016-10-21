@@ -242,7 +242,7 @@ var latinTester = (function() {
             
             setTimeout(function () {
                 continueButton.focus();
-            }, 300);
+            }, 10);
         }
     }
 
