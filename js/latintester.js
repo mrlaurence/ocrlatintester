@@ -239,7 +239,10 @@ var latinTester = (function() {
             submitButton.style.display = "none";
             translationInput.style.display = "none";
             continueButton.style.display = "inline";
-            continueButton.focus();
+            
+            setTimeout(function () {
+                continueButton.focus();
+            }, 300);
         }
     }
 
