@@ -3,12 +3,14 @@ var latinTester = (function() {
 
     //Functions here are accessible from inside the module only
 
-    //General-purpose variables accessible from everywhere within this function
+    //General-purpose variables accessible from everywhere within this module
     var vocabDictionary = {},
         vocabKeyArray,
-        currentKeyArrayIndex;
+        currentKeyArrayIndex,
+        questionCount = 0,
+        correctCount = 0;
 
-    //Variables pointing to HTML elements accessible from everywhere this function
+    //Variables pointing to HTML elements accessible from everywhere this module
     var startTestButton,
         testOptionsContainer,
         aosSelect,
@@ -18,7 +20,8 @@ var latinTester = (function() {
         translationInput,
         submitButton,
         correctStatusText,
-        continueButton;
+        continueButton,
+        progressStatusText;
 
     function setupElements() {
         startTestButton = document.getElementById("start-button");
@@ -31,6 +34,7 @@ var latinTester = (function() {
         submitButton = document.getElementById("submit-button");
         continueButton = document.getElementById("continue-button");
         correctStatusText = document.getElementById("correct-status");
+        progressStatusText = document.getElementById("progress-status");
     }
 
     //Parses the text from the vocabulary text file by creating a vocab dictionary
@@ -189,7 +193,7 @@ var latinTester = (function() {
         vocabKeyArray = Object.keys(vocabDictionary);
     }
 
-    //This function is run when the user submits their attempted translation. It's purpose is to modify a certain text element to inform the user as to whether their attempted translation was correct or incorrect
+    //Runs when the user submits their attempted translation. Modifies the correct status text element to inform the user as to whether their attempted translation was correct or incorrect
     function setCorrectStatus(isCorrect) {
         var statusInnerHtml,
             statusColour;
@@ -205,6 +209,7 @@ var latinTester = (function() {
             //The script informs the user they were correct and continues to test them on another word
             statusInnerHtml = "Correct";
             statusColour = "#18B495";
+
             changeCorrectStatusTextElement(statusInnerHtml, statusColour);
 
             latinTester.changeWord();
@@ -239,11 +244,24 @@ var latinTester = (function() {
             submitButton.style.display = "none";
             translationInput.style.display = "none";
             continueButton.style.display = "inline";
-            
+
+            //Focus the continue button after waiting 10 miliseconds to prevent the user accidentally pressing Enter
             setTimeout(function () {
                 continueButton.focus();
             }, 10);
         }
+    }
+
+
+    //Runs when the user submits their attempted translation. Modifies the progress status text element to inform the user as to how many questions the user has answered correctly and how many in total
+    function setProgressStatus(isCorrect) {
+        questionCount += 1;
+
+        if (isCorrect) {
+            correctCount += 1;
+        }
+
+        progressStatusText.innerHTML = sprintf("Progress - %d/%d", correctCount, questionCount);
     }
 
     return {
@@ -288,7 +306,6 @@ var latinTester = (function() {
             //Blank the input box for the translation and return the focus to it
             translationInput.value = "";
             translationInput.focus();
-
         },
 
         //Determine whether the user's attempted translation is correct
@@ -310,12 +327,18 @@ var latinTester = (function() {
 
                 //Inform them they were correct
                 setCorrectStatus(true);
+
+                //Update the user's progress
+                setProgressStatus(true);
             }
             else {
                 //It is not in the array - the user was incorrect
 
                 //Inform them they were incorrect and of the correct translation(s) for the Latin word
                 setCorrectStatus(false);
+
+                //Update the user's progress
+                setProgressStatus(false);
             }
         },
 

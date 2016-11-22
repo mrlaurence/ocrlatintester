@@ -41,3 +41,7 @@ body {
   width:200px;
   margin-bottom: 15px;
 }
+
+#continue-button {
+    margin-bottom: 15px;
+}

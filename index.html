@@ -6,12 +6,6 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    
-    <!--  Google Search Console verification  -->
-    <meta name="google-site-verification" content="_Lyy6eb78ttccQp5ZTGc0vpXw80Bsz-FyQYs5IMM5kM" />
-      
-    <meta name="description" content="This vocabulary tester contains all the vocabulary in the vocabulary checklist for the Higher and Foundation Tier of the OCR Latin GCSE (J281/J081)"/>
-    <meta name="author" content="Laurence Dhonau"/>
 
     <!-- Title of the webpage -->
     <title>GCSE Latin Tester</title>
@@ -128,15 +122,20 @@
             <!-- Button to continue the test after an incorrect translation -->
             <button id="continue-button" class="btn btn-danger" onclick="latinTester.continueTest();">Continue</button>
 
+
+            <!-- Text that indicates the user's progress in the test -->
+            <p id="progress-status">Progress - 0/0</p>
+
         </div> <!-- /#test-container -->
       </div> <!-- /.row -->
     </div> <!-- /.container -->
 
-      <!-- JavaScript -->
-      <script src="js/latintester.js"></script>
+      <!-- JavaScript  -->
       <script src="js/jquery.min.js"></script>
-      <script src="js/flat-ui.min.js"></script>
       <script src="js/video.js"></script>
+      <script src="js/sprintf.js"></script>
+      <script src="js/flat-ui.min.js"></script>
+      <script src="js/latintester.js"></script>
 
   </body>
 </html>
