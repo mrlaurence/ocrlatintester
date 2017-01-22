@@ -1,4 +1,4 @@
-﻿a, ab	+ ablative (also used as prefix with verbs)	from, away from, by	N	Y	Y
+ab	+ ablative (also used as prefix with verbs)	from, away from, by	N	Y	Y
 absum	abesse, afui	am absent, am away, am distant from	Y	N	Y
 ac, atque	indeclinable	and	N	Y	Y
 accido	accidere, accidi	happen	N	N	Y
@@ -10,7 +10,7 @@ advenio	advenire, adveni	arrive	N	Y	Y
 aedifico	aedificare, aedificavi, aedificatus	build	N	Y	Y
 ager	agri, m	field	Y	N	Y
 ago	agere, egi, actus	do, act, drive	N	Y	Y
-alii … alii		some … others	Y	N	Y
+alii ... alii		some ... others	Y	N	Y
 alius	alia, aliud	other, another, else	Y	Y	Y
 alter	altera, alterum	the other, another, the second of two	Y	Y	Y
 altus	alta, altum	high, deep	Y	N	Y
@@ -262,8 +262,8 @@ nisi	indeclinable	unless, except	Y	N	Y
 nolo	nolle, nolui	not want, refuse	N	Y	Y
 nomen	nominis, n	name	N	Y	Y
 non	indeclinable	not	N	Y	Y
-nonne … ?	indeclinable	surely … ?	Y	Y	N
-nonne …?	indeclinable	surely ... ?	N	N	Y
+nonne ... ?	indeclinable	surely ... ?	Y	Y	N
+nonne ...?	indeclinable	surely ... ?	N	N	Y
 nonnulli	nonnullae, nonnulla	some, several	Y	N	Y
 nos	nostrum	we, us	N	Y	Y
 noster	nostra, nostrum	our	Y	Y	Y
@@ -271,8 +271,8 @@ novus	nova, novum	new	Y	Y	Y
 nox	noctis, f	night	N	Y	Y
 nullus	nulla, nullum	not any, no	Y	Y	Y
 num	indeclinable	whether	N	N	Y
-num ... ?	indeclinable	surely … not?	N	N	Y
-num … ?	indeclinable	surely … not?	Y	Y	N
+num ... ?	indeclinable	surely ... not?	N	N	Y
+num ... ?	indeclinable	surely ... not?	Y	Y	N
 numquam	indeclinable	never	Y	Y	Y
 nunc	indeclinable	now	N	Y	Y
 nuntio	nuntiare, nuntiavi, nuntiatus	announce	N	Y	Y
@@ -339,8 +339,8 @@ puto	putare, putavi, putatus	think	Y	N	Y
 quaero	quaerere, quaesivi, quaesitus	search for, look for, ask	Y	Y	Y
 qualis?	quale	what sort of?	N	N	Y
 quam	indeclinable	than	N	Y	Y
-quam (+ superlative adverb)	 + superlative adverb	as … as possible	Y	N	Y
-quam? quam!	indeclinable	how … ? how … !	Y	Y	Y
+quam (+ superlative adverb)	 + superlative adverb	as ... as possible	Y	N	Y
+quam? quam!	indeclinable	how ... ? how ... !	Y	Y	Y
 quamquam	indeclinable	although	N	Y	Y
 quando?	indeclinable	when?	Y	N	Y
 quantus?	quanta? quantum?	how big? how much?	Y	Y	Y
