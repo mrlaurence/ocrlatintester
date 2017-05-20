@@ -292,13 +292,13 @@ var latinTester = (function() {
                 }
             }
             xhr.onreadystatechange = handleStateChange;
-            xhr.open("GET", "/ocrlatintester/txt/vocabulary-data.txt", true);
+            xhr.open("GET", "/ocrlatinteste/txt/vocabulary-data.txt", true);
             xhr.send();
         },
 
         //Change the Latin word the user is being tested on
         changeWord: function() {
-            currentKeyArrayIndex = Math.floor(Math.random() * (vocabKeyArray.length + 1));
+            currentKeyArrayIndex = Math.floor(Math.random() * (vocabKeyArray.length));
             var randomWord = vocabKeyArray[currentKeyArrayIndex];
 
             testWord.innerHTML = randomWord;
