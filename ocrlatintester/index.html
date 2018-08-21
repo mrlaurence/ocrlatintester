@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Metas -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="google-site-verification" content="_Lyy6eb78ttccQp5ZTGc0vpXw80Bsz-FyQYs5IMM5kM" />
+
+    <!-- Title of the webpage -->
+    <title>GCSE Latin Tester</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+
+    <!-- Bootstrap and Flat UI CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/flat-ui.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+    <!-- JavaScript for versions of Internet Explorer lower than 9 in addition to the JavaScript located at the end of the body section -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- All other JavaScript scripts are located at the end of the body section -->
+  </head>
+  <body>
+    <div class="container">
+
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+
+            <!-- Navigation bar header -->
+            <div class="navbar-header">
+
+              <!-- Navigation drawer button -->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <!-- Navigation bar title -->
+              <a class="navbar-brand" href="/ocrlatintester/">GCSE Latin Tester</a>
+            </div> <!-- /.navbar-header -->
+
+            <!-- Navigation bar links -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="/ocrlatintester/old-tester/">Old Specification Tester</a></li>
+                <li><a href="about.html">About</a></li>
+              </ul>
+            </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.container-fluid -->
+      </nav> <!-- /.navbar -->
+
+      <!-- Webpage content -->
+
+      <!-- Webpage title, subtitle, and information about tester update -->
+      <div class="row">
+          <h3 class="title">OCR GCSE Latin Vocabulary Tester</h3>
+
+          <h6 class="subtitle">This vocabulary tester contains all the vocabulary in the vocabulary list for the OCR Latin (9-1) GCSE (J282)</h6>
+
+          <div class="alert alert-success"><p><span class="bold">The GCSE Latin Tester has been updated for the new OCR specification.</span> The version of the vocabulary tester for the retired specification will remain avaliable from the navigation bar</p></div>
+      </div> <!-- /.row -->
+
+      <!-- Configurable options for the tester -->
+      <div id="test-options-container" class="row">
+
+        <!-- Prompt Language dropdown box with label -->
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+          <!-- Label -->
+          <label for="prompt-language-select">Prompt Language</label>
+
+          <!-- Dropdown box -->
+          <select class="form-control" id="prompt-language-select">
+            <option value="Latin">Latin</option>
+            <option value="English">English</option>
+          </select>
+        </div> <!-- /.col-lg-6 col-md-6 col-sm-6 col-xs-12 -->
+
+        <!-- Vocabulary List dropdown box with label -->
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+          <!-- Label -->
+          <label for="vocabulary-list-select">Test on Vocabulary List</label>
+
+          <!-- Dropdown box -->
+          <select class="form-control" id="vocabulary-list-select">
+            <option value="Defined Vocabulary List">Defined Vocabulary List</option>
+            <option value="Restricted Vocabulary List">Restricted Vocabulary List</option>
+          </select>
+        </div> <!-- /.col-lg-6 col-md-6 col-sm-6 col-xs-12 -->
+      </div> <!-- /#test-options-container -->
+
+      <div class="row">
+
+        <!-- Button to start the test -->
+        <button id="start-button" class="btn btn-primary" onclick="latinTester.startTest();">Start Test</button>
+
+        <!-- Tester interface -->
+        <div id="test-container" class="jumbotron">
+
+            <!-- Warning to be shown when testing English to Latin translation from the Defined Vocabulary List since OCR does not examine this -->
+            <div id="defined-list-warning" class="alert alert-warning"><p>You have selected English to Latin translation for the Defined Vocabulary List but OCR only examines English to Latin translation for the Restricted Vocabulary List. It is also currently not possible to know which Latin translation the tester requires when multiple Latin words have the same English meaning when translating from English to Latin for the Defined Vocabulary List</p></div>
+
+            <!-- Current word that the user is being tested on -->
+            <p id="test-word">Loading...</p>
+
+            <!-- Text input field for the translation of the word -->
+            <input type="text" id="translation-input" class="form-control" onkeypress="latinTester.keyPress(event, 'translation-input');">
+
+            <!-- Button to submit the word -->
+            <button id="submit-button" class="btn btn-primary" onclick="latinTester.validateTranslationAttempt();">Submit</button>
+
+            <!-- Text that indicates whether the translation is correct or incorrect -->
+            <p id="correct-status">Correct/Incorrect</p>
+
+            <!-- Button to continue the test after an incorrect translation -->
+            <button id="continue-button" class="btn btn-danger" onclick="latinTester.continueTest();">Continue</button>
+
+            <!-- Text that indicates the user's progress in the test -->
+            <p id="progress-status">Progress - 0/0</p>
+
+        </div> <!-- /#test-container -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+
+      <!-- JavaScript  -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/video.js"></script>
+      <script src="js/sprintf.js"></script>
+      <script src="js/flat-ui.min.js"></script>
+      <script src="js/latintester.js"></script>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-89490691-1', 'auto');
+        ga('send', 'pageview');
+      </script>
+
+  </body>
+</html>

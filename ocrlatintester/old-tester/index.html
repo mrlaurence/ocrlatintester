@@ -9,17 +9,17 @@
     <meta name="google-site-verification" content="_Lyy6eb78ttccQp5ZTGc0vpXw80Bsz-FyQYs5IMM5kM" />
 
     <!-- Title of the webpage -->
-    <title>GCSE Latin Tester</title>
+    <title>GCSE Latin Tester - Old Specification</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="shortcut icon" href="../img/favicon.ico"/>
 
     <!-- Bootstrap and Flat UI CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/flat-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/flat-ui.min.css"/>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
 
     <!-- JavaScript for versions of Internet Explorer lower than 9 in addition to the JavaScript located at the end of the body section -->
     <!--[if lt IE 9]>
@@ -54,7 +54,8 @@
             <!-- Navigation bar links -->
             <div class="collapse navbar-collapse" id="navbar-collapse">
               <ul class="nav navbar-nav">
-                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="/ocrlatintester/old-tester/">Old Specification Tester<span class="sr-only">(current)</span></a></li>
+                <li><a href="../about.html">About</a></li>
               </ul>
             </div> <!-- /.navbar-collapse -->
         </div> <!-- /.container-fluid -->
@@ -64,11 +65,11 @@
 
       <!-- Webpage title, subtitle, and warning information -->
       <div class="row">
-          <h3 class="title">OCR GCSE Latin Vocabulary Tester</h3>
+          <h3 class="title">OCR GCSE Latin Vocabulary Tester - Old Specification</h3>
 
           <h6 class="subtitle">This vocabulary tester contains all the vocabulary in the vocabulary checklist for the Higher and Foundation Tier of the OCR Latin GCSE (J281/J081)</h6>
 
-          <div class="alert alert-warning"><p><span class="bold">The specification the GCSE Latin Tester was designed for has been retired by OCR</span> (the final assessment opportunity was summer 2017). Other specifications are highly unlikely to set identical vocabulary, although some vocabulary may be similar</p></div>
+          <div class="alert alert-warning"><p><span class="bold">The specification that this version of the GCSE Latin Tester was designed for has been retired by OCR</span> (the final assessment opportunity was summer 2017). <span class="bold">The version for the new specification is accessible from the navigation bar</span>. Other specifications are highly unlikely to set identical vocabulary to the retired one, although some vocabulary may be similar</p></div>
       </div> <!-- /.row -->
 
       <!-- Configurable options for the tester -->
@@ -126,7 +127,6 @@
             <!-- Button to continue the test after an incorrect translation -->
             <button id="continue-button" class="btn btn-danger" onclick="latinTester.continueTest();">Continue</button>
 
-
             <!-- Text that indicates the user's progress in the test -->
             <p id="progress-status">Progress - 0/0</p>
 
@@ -135,10 +135,10 @@
     </div> <!-- /.container -->
 
       <!-- JavaScript  -->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/video.js"></script>
-      <script src="js/sprintf.js"></script>
-      <script src="js/flat-ui.min.js"></script>
+      <script src="../js/jquery.min.js"></script>
+      <script src="../js/video.js"></script>
+      <script src="../js/sprintf.js"></script>
+      <script src="../js/flat-ui.min.js"></script>
       <script src="js/latintester.js"></script>
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -1,0 +1,450 @@
+-ne	indeclinable	(introduces question)	N
+-que 	indeclinable	and	Y
+a, ab 	+ ablative (also used as prefix with verbs)	from, away from, by (as prefix = away)	Y
+absum 	abesse, afui	be absent, be away, be distant from	N
+ac, atque 	indeclinable	and	N
+accido 	accidere, accidi	happen	N
+accipio 	accipere, accepi, acceptus	accept, take in, receive	N
+ad 	+ accusative (also used as prefix with verbs)	to, towards, at	Y
+adeo 	indeclinable	so much, so greatly, to such an extent	N
+adsum 	adesse, adfui	be here, be present	N
+advenio 	advenire, adveni	arrive	Y
+aedifico 	aedificare, aedificavi, aedificatus	build	Y
+ager 	agri, m	field	Y
+ago 	agere, egi, actus	do, act, drive	N
+alii ... alii 		some ... others	N
+alius 	alia, aliud	other, another, else	N
+alter 	altera, alterum	the other, another, one (of two), the second (of two)	N
+altus 	alta, altum	high, deep	N
+ambulo 	ambulare, ambulavi	walk	Y
+amicus 	amici, m	friend	Y
+amo 	amare, amavi, amatus	love, like	N
+amor 	amoris, m	love	N
+ancilla	ancillae, f	slave-girl, slave-woman	Y
+animus 	animi, m	spirit, soul, mind	N
+annus 	anni, m	year	Y
+antea	indeclinable	before	N
+appropinquo 	appropinquare, appropinquavi + dative	approach, come near to	N
+aqua 	aquae, f	water	Y
+arma 	armorum, n plural	arms, weapons	Y
+ars 	artis, f	art, skill	N
+ascendo 	ascendere, ascendi, ascensus	climb	N
+audax 	audacis	bold, daring	N
+audeo	audere, ausus sum	dare	N
+audio 	audire, audivi, auditus	hear, listen to	Y
+aufero 	auferre, abstuli, ablatus	take away, carry off, steal	N
+auxilium 	auxilii, n	help	Y
+bellum 	belli, n	war	N
+bene 	indeclinable	well	Y
+bibo	bibere, bibi	drink	Y
+bonus 	bona, bonum	good	Y
+brevis 	breve	short, brief	N
+cado 	cadere, cecidi, casus	fall	Y
+caelum 	caeli, n	sky, heaven	N
+capio 	capere, cepi, captus	take, catch, capture, make (a plan)	Y
+captivus	captivi, m	captive, prisoner	N
+caput 	capitis, n	head	N
+castra 	castrorum, n plural	camp	N
+celer 	celeris, celere	quick, fast	N
+celo 	celare, celavi, celatus	hide	N
+cena 	cenae, f	dinner, meal	Y
+ceteri 	ceterae, cetera	the rest, the others	N
+cibus 	cibi, m	food	Y
+circum 	+ accusative	around	N
+civis 	civis, m and f	citizen	N
+clamo 	clamare, clamavi, clamatus	shout	Y
+clamor 	clamoris, m	shout, shouting, noise	N
+clarus	clara, clarum	famous, clear	N
+coepi	coepisse	began	N
+cogito 	cogitare, cogitavi, cogitatus	think, consider	N
+cognosco 	cognoscere, cognovi, cognitus	get to know, find out	N
+cogo 	cogere, coegi, coactus	force, compel	N
+comes 	comitis, m and f	comrade, companion	N
+conficio 	conficere, confeci, confectus	finish, wear out	N
+conor 	conari, conatus sum 	try	N
+consilium 	consilii, n	plan, idea, advice	Y
+conspicio 	conspicere, conspexi, conspectus	catch sight of, notice	Y
+constituo 	constituere, constitui, constitutus	decide	Y
+consul	consulis, m	consul	N
+consumo 	consumere, consumpsi, consumptus	eat	N
+contra	+ accusative	against	Y
+convenio 	convenire, conveni	come together, gather, meet	N
+copiae 	copiarum, f plural	forces, troops	N
+corpus 	corporis, n	body	N
+cras	indeclinable	tomorrow	N
+credo 	credere, credidi, creditus + dative	believe, trust	N
+crudelis 	crudele	cruel	N
+cum 	indeclinable	when, since	N
+cum (+ablative)	+ ablative	with	Y
+cupio 	cupere, cupivi, cupitus	want, desire	N
+cur?	indeclinable	why?	Y
+cura 	curae, f	care, worry	N
+curro 	currere, cucurri, cursus	run	Y
+custodio	custodire, custodivi, custoditus	guard	Y
+custos 	custodis, m and f	guard	N
+de 	+ ablative	from, down from, about	N
+dea 	deae, f	goddess	Y
+debeo 	debere, debui, debitus	owe, ought, should, must	N
+defendo 	defendere, defendi, defensus	defend	Y
+deinde	indeclinable	then	N
+deleo 	delere, delevi, deletus	destroy	N
+descendo 	descendere, descendi, descensus	go down, come down	N
+deus 	dei, m	god	Y
+dico 	dicere, dixi, dictus	say, speak, tell	Y
+dies 	diei, m	day	N
+difficilis 	difficile	difficult	N
+diligens	diligentis	careful	N
+dirus 	dira, dirum	dreadful	N
+discedo 	discedere, discessi	depart, leave	N
+diu 	indeclinable	for a long time	Y
+do 	dare, dedi, datus	give	N
+doceo	docere, docui, doctus	teach	N
+domina 	dominae, f	mistress	Y
+dominus 	domini, m	master	Y
+domus 	domus, f (domi = at home)	home	N
+donum 	doni, n	gift, present	Y
+dormio 	dormire, dormivi	sleep	Y
+duco 	ducere, duxi, ductus	lead, take	Y
+dum 	indeclinable	while, until	N
+dux 	ducis, m	leader	N
+e, ex 	+ ablative (also used as prefix with verbs)	from, out of, out	Y
+ecce!	indeclinable	look!	N
+effugio 	effugere, effugi	escape	N
+ego 	mei	I, me	N
+egredior 	egredi, egressus sum	go out	N
+emo 	emere, emi, emptus	buy	N
+enim 	indeclinable	for	N
+eo 	ire, i(v)i	go	N
+epistula 	epistulae, f	letter	Y
+equus 	equi, m	horse	N
+et 	indeclinable	and, even	Y
+et ... et 	indeclinable	both ... and	N
+etiam 	indeclinable	also, even	N
+exercitus 	exercitus, m	army	N
+exspecto 	exspectare, exspectavi, exspectatus	wait for, expect	N
+facilis 	facile	easy	N
+facio 	facere, feci, factus	make, do	Y
+faveo	favere, favi, fautus + dative	favour, support	N
+felix 	felicis	fortunate, happy	N
+femina 	feminae, f	woman	Y
+fero	ferre, tuli, latus	bring, carry, bear	N
+ferox 	ferocis	fierce, ferocious	N
+festino 	festinare, festinavi	hurry	Y
+fidelis 	fidele	faithful, loyal	N
+filia 	filiae, f	daughter	Y
+filius 	filii, m	son	Y
+flumen 	fluminis, n	river	N
+forte	indeclinable	by chance	N
+fortis 	forte	brave	N
+forum 	fori, n	forum, market place	Y
+frater 	fratris, m	brother	N
+frustra	indeclinable	in vain	N
+fugio 	fugere, fugi	run away, flee	Y
+gaudeo 	gaudere, gavisus sum	be pleased, rejoice	N
+gaudium	gaudii, n	joy, pleasure	N
+gens 	gentis, f	family, tribe, race, people	N
+gero	gerere, gessi, gestus	wear (clothes), wage (war)	N
+gladius 	gladii, m	sword	Y
+gravis 	grave	heavy, serious	N
+habeo 	habere, habui, habitus	have, hold	Y
+habito 	habitare, habitavi, habitatus	live	Y
+heri	indeclinable	yesterday	N
+hic 	haec, hoc	this, he, she, it	N
+hodie 	indeclinable	today	N
+homo 	hominis, m	man, human being	N
+hora 	horae, f	hour	Y
+hortor 	hortari, hortatus sum	encourage, urge	N
+hortus 	horti, m	garden	Y
+hostis 	hostis, m	enemy	N
+iaceo 	iacere, iacui	lie	N
+iacio 	iacere, ieci, iactus (in compounds -icio)	throw	N
+iam 	indeclinable	now, already	N
+ianua 	ianuae, f	door	N
+ibi 	indeclinable	there	N
+idem 	eadem, idem	the same	N
+igitur	indeclinable	therefore, and so	N
+ille 	ilIa, illud	that, he, she, it	N
+imperator	imperatoris, m	emperor, general, leader	N
+imperium	imperii, n	empire, power, command	N
+impero 	imperare, imperavi, imperatus + dative	order, command	N
+in (+ablative)	+ ablative (also used as prefix with verbs)	in, on	Y
+in (+accusative)	+ accusative (also used as prefix with verbs)	into, onto	Y
+incendo 	incendere, incendi, incensus	burn, set on fire	N
+infelix 	infelicis	unlucky, unhappy	N
+ingens 	ingentis	huge	N
+ingredior 	ingredi, ingressus sum	enter	N
+inimicus 	inimici, m	enemy	N
+inquit 		he/she says, he/she said	N
+insula 	insulae, f	island, block of flats	N
+intellego 	intellegere, intellexi, intellectus	understand, realise	N
+inter 	+ accusative	among, between	N
+interea 	indeclinable	meanwhile	N
+interficio 	interficere, interfeci, interfectus	kill	N
+intro 	intrare, intravi, intratus	enter	Y
+invenio 	invenire, inveni, inventus	find	Y
+invito	invitare, invitavi, invitatus	invite	Y
+ipse 	ipsa, ipsum	himself, herself, itself, themselves	N
+ira 	irae, f	anger	Y
+iratus 	irata, iratum	angry	Y
+is 	ea, id	this, that, he, she, it, them	N
+ita 	indeclinable	in this way, to such an extent, so	N
+itaque 	indeclinable	and so, therefore	N
+iter 	itineris, n	journey	N
+iterum 	indeclinable	again	N
+iubeo 	iubere, iussi, iussus	order	N
+iuvenis 	iuvenis, m	young man	N
+labor 	laboris, m	work, toil	N
+laboro 	laborare, laboravi	work, toil	Y
+lacrimo	lacrimare, lacrimavi	weep, cry	N
+laetus 	laeta, laetum	happy	Y
+laudo 	laudare, laudavi, laudatus	praise	N
+legio 	legionis, f	legion	N
+lego 	legere, legi, lectus	read, choose	N
+lentus	lenta, lentum	slow	N
+libenter 	indeclinable	willingly, gladly	N
+liber 	libri, m	book	N
+liberi 	liberorum, m plural	children	N
+libero 	liberare, liberavi, liberatus	set free	N
+libertus 	liberti, m	freedman, ex-slave	Y
+locus 	loci, m	place	N
+longus 	longa, longum	long	Y
+loquor 	loqui, locutus sum	speak, talk	N
+lux 	lucis, f	light, daylight	N
+magnus 	magna, magnum	big, large, great	Y
+malo 	malle, malui	prefer	N
+malus 	mala, malum	evil, bad	Y
+maneo 	manere, mansi	remain, stay	N
+manus 	manus, f	hand, group of people	N
+mare 	maris, n	sea	N
+maritus	mariti, m	husband	Y
+mater 	matris, f	mother	N
+maxime	indeclinable	very greatly	N
+medius 	media, medium	middle	N
+meus 	mea, meum	my	N
+miles 	militis, m	soldier	N
+minime 	indeclinable	very little, least, no	N
+miror 	mirari, miratus sum	wonder at, admire	N
+miser 	misera, miserum	miserable, wretched, sad	N
+mitto 	mittere, misi, missus	send	Y
+modus 	modi, m	manner, way, kind	N
+moneo 	monere, monui, monitus	warn, advise	N
+mons 	montis, m	mountain	N
+morior 	mori, mortuus sum	die	N
+mors 	mortis, f	death	N
+moveo 	movere, movi, motus	move	N
+mox 	indeclinable	soon	N
+multo	indeclinable	much	N
+multus 	multa, multum	much, many	Y
+murus 	muri, m	wall	Y
+nam 	indeclinable	for	N
+narro 	narrare, narravi, narratus	tell, relate	N
+nauta 	nautae, m	sailor	Y
+navigo 	navigare, navigavi	sail	Y
+navis 	navis, f	ship	N
+ne 	indeclinable + subjunctive	that ... not, so that ... not, that, lest	N
+nec, neque	indeclinable	and not, nor, neither	N
+neco 	necare, necavi, necatus	kill	Y
+nemo 	nullius	no one, nobody	N
+nescio 	nescire, nescivi	not know	N
+nihil 	indeclinable	nothing	N
+nisi 	indeclinable	unless, except	N
+nolo 	nolle, nolui	not want, refuse	N
+nomen 	nominis, n	name	N
+non 	indeclinable	not	Y
+nonne ...? 	indeclinable	surely ... ?	N
+nonnulli	nonnullae, nonnulla	some, several	N
+nos 	nostrum	we, us	N
+noster 	nostra, nostrum	our	N
+novus 	nova, novum	new	Y
+nox 	noctis, f	night	N
+nullus 	nulla, nullum	not any, no	N
+num 	indeclinable	whether	N
+num ... ? 	indeclinable	surely ... not? 	N
+numquam 	indeclinable	never	N
+nunc 	indeclinable	now	N
+nuntio 	nuntiare, nuntiavi, nuntiatus	announce, report	Y
+nuntius 	nuntii, m	messenger, message, news	Y
+occido 	occidere, occidi, occisus	kill	N
+offero 	offerre, obtuli, oblatus	offer	N
+olim 	indeclinable	once, some time ago	N
+omnis 	omne	all, every	N
+opprimo	opprimere, oppressi, oppressus	crush, overwhelm	N
+oppugno 	oppugnare, oppugnavi, oppugnatus	attack	N
+oro 	orare, oravi, oratus	beg	N
+ostendo 	ostendere, ostendi, ostentus	show	N
+paene 	indeclinable	almost, nearly	N
+paro 	parare, paravi, paratus	prepare, provide	Y
+pars 	partis, f	part	N
+parvus 	parva, parvum	small	Y
+pater 	patris, m	father	N
+patior 	pati, passus sum	suffer, endure	N
+patria 	patriae, f	country, homeland	Y
+pauci 	paucae, pauca	few, a few	N
+pax 	pacis, f	peace	N
+pecunia 	pecuniae, f	money	Y
+pello	pellere, pepuli, pulsus	drive	N
+per 	+ accusative	through, along	N
+pereo 	perire, perii	die, perish	N
+periculum 	periculi, n	danger	Y
+persuadeo 	persuadere, persuasi + dative	persuade	N
+perterritus 	perterrita, perterritum	terrified	N
+pes 	pedis, m	foot	N
+peto 	petere, petivi, petitus	make for, seek, beg/ask for	Y
+poena 	poenae, f	punishment	N
+poenas do 		pay the penalty, be punished	N
+pono 	ponere, posui, positus	put, place, set up	Y
+porta 	portae, f	gate	Y
+porto 	portare, portavi, portatus	carry, bear, take	Y
+possum 	posse, potui	can, be able	Y
+post 	+ accusative	after, behind	N
+postea 	indeclinable	afterwards	N
+postquam 	indeclinable	after, when	N
+postridie 	indeclinable	on the next day	N
+praemium 	praemii, n	prize, reward, profit	N
+primo 	indeclinable	at first	N
+primus 	prima, primum	first	N
+princeps	principis, m	chief, emperor	N
+pro 	+ ablative	in front of, for, in return for	N
+procedo 	procedere, processi	advance, proceed	N
+proelium 	proelii, n	battle	N
+proficiscor 	proficisci, profectus sum	set out	N
+progredior 	progredi, progressus sum	advance	N
+promitto 	promittere, promisi, promissus	promise	N
+prope	+ accusative	near	N
+propter 	+ accusative	on account of, because of	N
+proximus 	proxima, proximum	nearest, next to	N
+puella 	puellae, f	girl	Y
+puer 	pueri, m	boy	Y
+pugno 	pugnare, pugnavi	fight	N
+pulcher 	pulchra, pulchrum	beautiful, handsome	N
+punio	punire, punivi, punitus	punish	N
+puto 	putare, putavi, putatus	think	N
+quaero 	quaerere, quaesivi, quaesitus	search for, look for, ask	N
+qualis? 	quale	what sort of?	N
+quam	 + superlative adverb	as ... as possible	N
+quam 	indeclinable	than, how ... ? how ... !	N
+quamquam 	indeclinable	although	N
+quando?	indeclinable	when?	Y
+quantus? 	quanta? quantum?	how big? how much?	N
+qui 	quae, quod	who, which	N
+quidam 	quaedam, quoddam	one, a certain, some	N
+quis? 	quid?	who? what?	N
+quo? 	indeclinable	to where?	N
+quod 	indeclinable	because	N
+quomodo? 	indeclinable	how?	N
+quoque 	indeclinable	also, too	N
+quot? 	indeclinable	how many?	N
+rapio 	rapere, rapui, raptus	seize, grab	N
+re- 	(prefix used with verbs)	- back	N
+reddo 	reddere, reddidi, redditus	give back, restore	N
+redeo 	redire, redii	go back, come back, return	N
+refero 	referre, rettuli, relatus	bring/carry back, report, tell	N
+regina 	reginae, f	queen	Y
+regnum	regni, n	kingdom	Y
+rego 	regere, rexi, rectus	rule	Y
+regredior 	regredi, regressus sum	go back, return	N
+relinquo 	relinquere, reliqui, relictus	leave, leave behind	Y
+res 	rei, f	thing, matter, event	N
+resisto 	resistere, restiti + dative	resist	N
+respondeo 	respondere, respondi, responsus	reply	N
+rex 	regis, m	king	N
+rideo 	ridere, risi	laugh, smile	N
+rogo 	rogare, rogavi, rogatus	ask, ask for	Y
+Roma 	Romae, f (Romae: at/in Rome)	Rome	N
+Romanus 	Romana, Romanum	Roman	N
+sacer 	sacra, sacrum	sacred	N
+saepe 	indeclinable	often	Y
+saevus 	saeva, saevum	savage, cruel	Y
+saluto 	salutare, salutavi, salutatus	greet	Y
+sanguis 	sanguinis, m	blood	N
+scelestus 	scelesta, scelestum	wicked	N
+scelus 	sceleris, n	crime	N
+scio 	scire, scivi, scitus	know	N
+scribo 	scribere, scripsi, scriptus	write	Y
+se 	sui	himself, herself, itself, themselves	N
+sed 	indeclinable	but	N
+sedeo 	sedere, sedi	sit	N
+semper 	indeclinable	always	Y
+senator 	senatoris, m	senator	N
+senex 	senis, m	old man	N
+sentio 	sentire, sensi, sensus	feel, notice	N
+sequor 	sequi, secutus sum	follow	N
+servo 	servare, servavi, servatus	save, protect, keep	Y
+servus 	servi, m	slave	Y
+si 	indeclinable	if	N
+sic 	indeclinable	thus, in this way	N
+silva 	silvae, f	wood	Y
+simul 	indeclinable	at the same time	N
+simulac, simulatque 	indeclinable	as soon as	N
+sine 	+ ablative	without	N
+soleo	solere, solitus sum	be accustomed	N
+solus 	sola, solum	alone, lonely, only, on one's own	N
+specto 	spectare, spectavi, spectatus	look at, watch	N
+spero 	sperare, speravi, speratus	hope, expect	N
+spes 	spei, f	hope	N
+statim 	indeclinable	at once, immediately	Y
+sto 	stare, steti	stand	N
+stultus 	stulta, stultum	stupid, foolish	N
+sub 	+ accusative/ablative	under, beneath	N
+subito 	indeclinable	suddenly	Y
+sum 	esse, fui	be	Y
+summus 	summa, summum	highest, greatest, top (of)	N
+supero 	superare, superavi, superatus	overcome, overpower	Y
+surgo 	surgere, surrexi	get up, stand up, rise	N
+suus 	sua, suum	his, her, its, their (own)	N
+taberna 	tabernae, f	shop, inn	Y
+taceo 	tacere, tacui, tacitus	be silent, be quiet	Y
+talis 	tale	such, of such a kind	N
+tam 	indeclinable	so	N
+tamen 	indeclinable	however	N
+tandem 	indeclinable	at last, finally	Y
+tantus 	tanta, tantum	so great, such a great	N
+tempestas	tempestatis, f	storm	N
+templum 	templi, n	temple	Y
+tempus 	temporis, n	time	N
+teneo 	tenere, tenui, tentus	hold	Y
+terra 	terrae, f	ground, land, country	N
+terreo 	terrere, terrui, territus	frighten	Y
+timeo 	timere, timui	fear, be afraid	Y
+tollo	tollere, sustuli, sublatus	raise, lift up, hold up	N
+tot 	indeclinable	so many	N
+totus 	tota, totum	whole	N
+trado 	tradere, tradidi, traditus	hand over, hand down	Y
+traho 	trahere, traxi, tractus	drag	Y
+trans 	+ accusative (also used as prefix with verbs)	across	N
+tristis 	triste	sad	N
+tu 	tui	you (singular)	N
+tum 	indeclinable	then	N
+turba 	turbae, f	crowd	N
+tuus 	tua, tuum	your (singular), yours	N
+ubi	indeclinable	where? where, when	N
+umquam 	indeclinable	ever	N
+unde? 	indeclinable	from where?	N
+urbs 	urbis, f	city	N
+ut (indicative mood)	indeclinable + indicative	as, when	N
+ut (subjunctive mood)	indeclinable + subjunctive	that, so that, in order that	N
+uxor 	uxoris, f	wife	N
+validus 	valida, validum	strong	N
+vehementer 	indeclinable	violently, loudly	N
+vendo 	vendere, vendidi, venditus	sell	N
+venio 	venire, veni 	come	Y
+verbum 	verbi, n 	word	N
+verto 	vertere, verti, versus	turn	N
+vester 	vestra, vestrum 	your (plural), yours	N
+via 	viae, f	street, road, way	Y
+victoria 	victoriae, f	victory	N
+video 	videre, vidi, visus	see	N
+videor 	videri, visus sum	seem, appear	N
+villa 	villae, f	house, country villa	Y
+vinco 	vincere, vici, victus	conquer, win, be victorious	Y
+vinum 	vini, n	wine	Y
+vir 	viri, m	man	Y
+virtus 	virtutis, f	courage, virtue	N
+vita 	vitae, f	life	N
+vivo 	vivere, vixi	live, be alive	N
+voco 	vocare, vocavi, vocatus	call	Y
+volo 	velle, volui	want, wish, be willing	N
+vos 	vestrum	you (plural)	N
+vox 	vocis, f	voice, shout	N
+vulnero	vulnerare, vulneravi, vulneratus	wound, injure	N
+vulnus 	vulneris, n	wound	N

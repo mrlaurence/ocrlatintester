@@ -19,6 +19,10 @@ body {
   margin-bottom: 34px;
 }
 
+.alert p {
+  font-size: 18px;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -41,6 +45,10 @@ body {
 }
 
 #test-container, #correct-status, #continue-button {
+  display: none;
+}
+
+#defined-list-warning {
   display: none;
 }
 
